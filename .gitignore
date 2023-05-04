@@ -7,11 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules/*
 dist
 dist-ssr
 *.local
-.next
+
+
+### Format1  ###
+node_modules/
+node/
+
+### Format2  ###
+#**/frontend/node_modules/**
+#**/frontend/node/**
 
 # Editor directories and files
 .vscode/*
