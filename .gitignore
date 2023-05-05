@@ -10,7 +10,11 @@ lerna-debug.log*
 dist
 dist-ssr
 *.local
+# yarn lock file
+yarn.lock
 
+# package-lock 
+package-lock.json
 
 ### Format1  ###
 node_modules/
